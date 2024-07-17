@@ -1,0 +1,146 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.backdrop{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 1000px; 
+    height: 730px;
+    background: linear-gradient(to right, white, lightblue);
+    border-radius: 40px;
+}
+.container{
+    height:450px ;
+    width:560px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left: 760px;
+    top: 180px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.Height input{
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+}
+.Weight input{
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+}
+.inputs{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 17px;
+    gap: 15px;
+   
+}
+.Weight ::placeholder{
+    
+        text-align: right; 
+        width: 100%;
+        display: inline-block;
+        direction: rtl; 
+    
+}
+.Height ::placeholder{
+    text-align: right;
+    width: 100%; 
+    display: inline-block; 
+    direction: rtl; 
+}
+.select{
+    display: flex;
+    font-size: 30px;
+    gap: 200px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+.big-radio {
+    width: 20px; 
+    height: 20px; 
+}
+
+.big-radio:checked::before {
+    width: 14px; 
+    height: 14px; 
+    left: 3px; 
+    top: 3px; 
+}
+.big-radio {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000; 
+    border-radius: 50%; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.big-radio:checked::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: lightblue; 
+    border-radius: 50%;
+    position: absolute;
+ top: 1px;
+    left: 1px;
+}
+.container h1{
+    margin-left: 10px;
+}
+
+#calculate {
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 210px;
+  }
+  
+  #calculate:hover {
+    background-color: rgb(155, 208, 226);
+  }
+  
+  
+  #result {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 145px;
+  }
+  .backdrop h1{
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+  .backdrop p{
+    font-size: 20px;
+    color: #333; 
+    line-height: 1.5;
+     margin-left: 40px;
+    
+  }
